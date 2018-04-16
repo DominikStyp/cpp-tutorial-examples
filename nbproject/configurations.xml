@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>AbstractUser.h</itemPath>
+      <itemPath>DereferenceVsAddressOfOperator.h</itemPath>
+      <itemPath>Enums.h</itemPath>
+      <itemPath>OverloadOperators.h</itemPath>
+      <itemPath>Pointers.h</itemPath>
+      <itemPath>PolymorphismAndAbstractMethods.h</itemPath>
+      <itemPath>Printer.h</itemPath>
+      <itemPath>StructExamples.h</itemPath>
+      <itemPath>User.h</itemPath>
+      <itemPath>arrays.h</itemPath>
+      <itemPath>functionTemplatesGenerics.h</itemPath>
+      <itemPath>typedefAndUsingToCreateAliases.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>AbstractUser.cpp</itemPath>
+      <itemPath>ClassConstructorInvocationTypes.cpp</itemPath>
+      <itemPath>DereferenceVsAddressOfOperator.cpp</itemPath>
+      <itemPath>Enums.cpp</itemPath>
+      <itemPath>OverloadOperators.cpp</itemPath>
+      <itemPath>Pointers.cpp</itemPath>
+      <itemPath>PolymorphismAndAbstractMethods.cpp</itemPath>
+      <itemPath>Printer.cpp</itemPath>
+      <itemPath>StructExamples.cpp</itemPath>
+      <itemPath>User.cpp</itemPath>
+      <itemPath>arrays.cpp</itemPath>
+      <itemPath>functionTemplatesGenerics.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>typedefAndUsingToCreateAliases.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="AbstractUser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AbstractUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClassConstructorInvocationTypes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="DereferenceVsAddressOfOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DereferenceVsAddressOfOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Enums.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Enums.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OverloadOperators.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OverloadOperators.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pointers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pointers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PolymorphismAndAbstractMethods.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PolymorphismAndAbstractMethods.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Printer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Printer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StructExamples.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StructExamples.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="User.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="User.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="arrays.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="arrays.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="functionTemplatesGenerics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="functionTemplatesGenerics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="typedefAndUsingToCreateAliases.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="typedefAndUsingToCreateAliases.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="AbstractUser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AbstractUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ClassConstructorInvocationTypes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="DereferenceVsAddressOfOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DereferenceVsAddressOfOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Enums.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Enums.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OverloadOperators.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OverloadOperators.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pointers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pointers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PolymorphismAndAbstractMethods.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PolymorphismAndAbstractMethods.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Printer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Printer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StructExamples.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StructExamples.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="User.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="User.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="arrays.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="arrays.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="functionTemplatesGenerics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="functionTemplatesGenerics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="typedefAndUsingToCreateAliases.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="typedefAndUsingToCreateAliases.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
