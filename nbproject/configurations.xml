@@ -5,8 +5,10 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>AbstractUser.h</itemPath>
+      <itemPath>Const.h</itemPath>
       <itemPath>DereferenceVsAddressOfOperator.h</itemPath>
       <itemPath>Enums.h</itemPath>
+      <itemPath>NewKeword.h</itemPath>
       <itemPath>OverloadOperators.h</itemPath>
       <itemPath>Pointers.h</itemPath>
       <itemPath>PolymorphismAndAbstractMethods.h</itemPath>
@@ -14,6 +16,7 @@
       <itemPath>StructExamples.h</itemPath>
       <itemPath>User.h</itemPath>
       <itemPath>arrays.h</itemPath>
+      <itemPath>classTemplates.h</itemPath>
       <itemPath>functionTemplatesGenerics.h</itemPath>
       <itemPath>typedefAndUsingToCreateAliases.h</itemPath>
     </logicalFolder>
@@ -26,8 +29,10 @@
                    projectFiles="true">
       <itemPath>AbstractUser.cpp</itemPath>
       <itemPath>ClassConstructorInvocationTypes.cpp</itemPath>
+      <itemPath>Const.cpp</itemPath>
       <itemPath>DereferenceVsAddressOfOperator.cpp</itemPath>
       <itemPath>Enums.cpp</itemPath>
+      <itemPath>NewKeword.cpp</itemPath>
       <itemPath>OverloadOperators.cpp</itemPath>
       <itemPath>Pointers.cpp</itemPath>
       <itemPath>PolymorphismAndAbstractMethods.cpp</itemPath>
@@ -35,6 +40,7 @@
       <itemPath>StructExamples.cpp</itemPath>
       <itemPath>User.cpp</itemPath>
       <itemPath>arrays.cpp</itemPath>
+      <itemPath>classTemplates.cpp</itemPath>
       <itemPath>functionTemplatesGenerics.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>typedefAndUsingToCreateAliases.cpp</itemPath>
@@ -60,6 +66,10 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <linkerTool>
+          <linkerCopySharedLibs>true</linkerCopySharedLibs>
+          <commandLine>-lpsapi</commandLine>
+        </linkerTool>
       </compileType>
       <item path="AbstractUser.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -70,6 +80,10 @@
             tool="1"
             flavor2="0">
       </item>
+      <item path="Const.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Const.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="DereferenceVsAddressOfOperator.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="DereferenceVsAddressOfOperator.h" ex="false" tool="3" flavor2="0">
@@ -77,6 +91,10 @@
       <item path="Enums.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Enums.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NewKeword.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NewKeword.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="OverloadOperators.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -105,6 +123,10 @@
       <item path="arrays.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="arrays.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="classTemplates.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="classTemplates.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="functionTemplatesGenerics.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -146,6 +168,10 @@
             tool="1"
             flavor2="0">
       </item>
+      <item path="Const.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Const.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="DereferenceVsAddressOfOperator.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="DereferenceVsAddressOfOperator.h" ex="false" tool="3" flavor2="0">
@@ -153,6 +179,10 @@
       <item path="Enums.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Enums.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NewKeword.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NewKeword.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="OverloadOperators.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -181,6 +211,10 @@
       <item path="arrays.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="arrays.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="classTemplates.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="classTemplates.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="functionTemplatesGenerics.cpp" ex="false" tool="1" flavor2="0">
       </item>

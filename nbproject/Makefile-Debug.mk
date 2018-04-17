@@ -37,8 +37,10 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/AbstractUser.o \
 	${OBJECTDIR}/ClassConstructorInvocationTypes.o \
+	${OBJECTDIR}/Const.o \
 	${OBJECTDIR}/DereferenceVsAddressOfOperator.o \
 	${OBJECTDIR}/Enums.o \
+	${OBJECTDIR}/NewKeword.o \
 	${OBJECTDIR}/OverloadOperators.o \
 	${OBJECTDIR}/Pointers.o \
 	${OBJECTDIR}/PolymorphismAndAbstractMethods.o \
@@ -46,6 +48,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/StructExamples.o \
 	${OBJECTDIR}/User.o \
 	${OBJECTDIR}/arrays.o \
+	${OBJECTDIR}/classTemplates.o \
 	${OBJECTDIR}/functionTemplatesGenerics.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/typedefAndUsingToCreateAliases.o
@@ -73,7 +76,7 @@ LDLIBSOPTIONS=
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cpptutorial.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cpptutorial ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cpptutorial ${OBJECTFILES} ${LDLIBSOPTIONS} -lpsapi
 
 ${OBJECTDIR}/AbstractUser.o: AbstractUser.cpp
 	${MKDIR} -p ${OBJECTDIR}
@@ -85,6 +88,11 @@ ${OBJECTDIR}/ClassConstructorInvocationTypes.o: ClassConstructorInvocationTypes.
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ClassConstructorInvocationTypes.o ClassConstructorInvocationTypes.cpp
 
+${OBJECTDIR}/Const.o: Const.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Const.o Const.cpp
+
 ${OBJECTDIR}/DereferenceVsAddressOfOperator.o: DereferenceVsAddressOfOperator.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -94,6 +102,11 @@ ${OBJECTDIR}/Enums.o: Enums.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Enums.o Enums.cpp
+
+${OBJECTDIR}/NewKeword.o: NewKeword.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/NewKeword.o NewKeword.cpp
 
 ${OBJECTDIR}/OverloadOperators.o: OverloadOperators.cpp
 	${MKDIR} -p ${OBJECTDIR}
@@ -129,6 +142,11 @@ ${OBJECTDIR}/arrays.o: arrays.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arrays.o arrays.cpp
+
+${OBJECTDIR}/classTemplates.o: classTemplates.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/classTemplates.o classTemplates.cpp
 
 ${OBJECTDIR}/functionTemplatesGenerics.o: functionTemplatesGenerics.cpp
 	${MKDIR} -p ${OBJECTDIR}

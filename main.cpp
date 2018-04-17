@@ -13,20 +13,25 @@
 #include "typedefAndUsingToCreateAliases.h"
 #include "Enums.h"
 #include "OverloadOperators.h"
-
+#include "classTemplates.h"
+#include "Const.h"
+#include "NewKeword.h"
 
 int main() {
 
-    Printer::printString("Test print string.");
+    //Printer::printString("Test print string.");
     //arrayTest();
     //abstractMethodsTest();
     //functionTemplatesGenerics();
     //dereferenceVsAddressOfOperatorsTest();
-    testPointers();
+    //testPointers();
     //structsTest();
     //typeDefAndUsingTest();
     //enumsTest();
-    overloadOperators();
+    //overloadOperators();
+    //classTemplateTest();
+    //testConst();
+    newKewordTest();
     return 0;
 }
 
