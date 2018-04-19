@@ -8,11 +8,14 @@
       <itemPath>Const.h</itemPath>
       <itemPath>DereferenceVsAddressOfOperator.h</itemPath>
       <itemPath>Enums.h</itemPath>
+      <itemPath>Lambdas.h</itemPath>
       <itemPath>NewKeword.h</itemPath>
       <itemPath>OverloadOperators.h</itemPath>
       <itemPath>Pointers.h</itemPath>
       <itemPath>PolymorphismAndAbstractMethods.h</itemPath>
       <itemPath>Printer.h</itemPath>
+      <itemPath>StaticKeywordOutsideClass.h</itemPath>
+      <itemPath>StaticKeywordOutsideClass1.h</itemPath>
       <itemPath>StructExamples.h</itemPath>
       <itemPath>User.h</itemPath>
       <itemPath>arrays.h</itemPath>
@@ -32,11 +35,14 @@
       <itemPath>Const.cpp</itemPath>
       <itemPath>DereferenceVsAddressOfOperator.cpp</itemPath>
       <itemPath>Enums.cpp</itemPath>
+      <itemPath>Lambdas.cpp</itemPath>
       <itemPath>NewKeword.cpp</itemPath>
       <itemPath>OverloadOperators.cpp</itemPath>
       <itemPath>Pointers.cpp</itemPath>
       <itemPath>PolymorphismAndAbstractMethods.cpp</itemPath>
       <itemPath>Printer.cpp</itemPath>
+      <itemPath>StaticKeywordOutsideClass.cpp</itemPath>
+      <itemPath>StaticKeywordOutsideClass1.cpp</itemPath>
       <itemPath>StructExamples.cpp</itemPath>
       <itemPath>User.cpp</itemPath>
       <itemPath>arrays.cpp</itemPath>
@@ -66,7 +72,14 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <cTool>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
         <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cpptutorial</output>
           <linkerCopySharedLibs>true</linkerCopySharedLibs>
           <commandLine>-lpsapi</commandLine>
         </linkerTool>
@@ -92,6 +105,10 @@
       </item>
       <item path="Enums.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Lambdas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Lambdas.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="NewKeword.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="NewKeword.h" ex="false" tool="3" flavor2="0">
@@ -111,6 +128,14 @@
       <item path="Printer.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Printer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StaticKeywordOutsideClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StaticKeywordOutsideClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StaticKeywordOutsideClass1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StaticKeywordOutsideClass1.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="StructExamples.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -180,6 +205,10 @@
       </item>
       <item path="Enums.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Lambdas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Lambdas.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="NewKeword.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="NewKeword.h" ex="false" tool="3" flavor2="0">
@@ -199,6 +228,14 @@
       <item path="Printer.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Printer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StaticKeywordOutsideClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StaticKeywordOutsideClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StaticKeywordOutsideClass1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StaticKeywordOutsideClass1.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="StructExamples.cpp" ex="false" tool="1" flavor2="0">
       </item>

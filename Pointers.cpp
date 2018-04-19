@@ -118,6 +118,18 @@ void pointersToFunctionsTest(){
              << n << "," 
              << o << " == 5";
 }
+
+void pointersToFunctionsTest1(){
+    // here we can make alias to the type of function
+    typedef int(*AdditionFunction)(int,int);
+    // here we assign proper function to its proper type
+    AdditionFunction addNumsFunc1 = addition;
+    // or we can skip that and be less specific by naming this type as "auto"
+    auto addNumsFunc2 = addition;
+    cout << "\n--------- pointersToFunctionsTest1() ----------------\n";
+    cout << addNumsFunc1(1,10) << " = 11 \n"; 
+    cout << addNumsFunc2(1,10) << " = 11 \n"; 
+}
 ////////////////////////////////////////////////
 
 /////////////// POINTERS TO CLASSES //////////////
@@ -153,4 +165,5 @@ void testPointers(){
     incrementPointersStringExample();
     pointersToFunctionsTest();
     pointersToClasses();
+    pointersToFunctionsTest1();
 }

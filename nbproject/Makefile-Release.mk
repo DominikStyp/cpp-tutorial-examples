@@ -40,11 +40,14 @@ OBJECTFILES= \
 	${OBJECTDIR}/Const.o \
 	${OBJECTDIR}/DereferenceVsAddressOfOperator.o \
 	${OBJECTDIR}/Enums.o \
+	${OBJECTDIR}/Lambdas.o \
 	${OBJECTDIR}/NewKeword.o \
 	${OBJECTDIR}/OverloadOperators.o \
 	${OBJECTDIR}/Pointers.o \
 	${OBJECTDIR}/PolymorphismAndAbstractMethods.o \
 	${OBJECTDIR}/Printer.o \
+	${OBJECTDIR}/StaticKeywordOutsideClass.o \
+	${OBJECTDIR}/StaticKeywordOutsideClass1.o \
 	${OBJECTDIR}/StructExamples.o \
 	${OBJECTDIR}/User.o \
 	${OBJECTDIR}/arrays.o \
@@ -103,6 +106,11 @@ ${OBJECTDIR}/Enums.o: Enums.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Enums.o Enums.cpp
 
+${OBJECTDIR}/Lambdas.o: Lambdas.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Lambdas.o Lambdas.cpp
+
 ${OBJECTDIR}/NewKeword.o: NewKeword.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -127,6 +135,16 @@ ${OBJECTDIR}/Printer.o: Printer.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Printer.o Printer.cpp
+
+${OBJECTDIR}/StaticKeywordOutsideClass.o: StaticKeywordOutsideClass.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/StaticKeywordOutsideClass.o StaticKeywordOutsideClass.cpp
+
+${OBJECTDIR}/StaticKeywordOutsideClass1.o: StaticKeywordOutsideClass1.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/StaticKeywordOutsideClass1.o StaticKeywordOutsideClass1.cpp
 
 ${OBJECTDIR}/StructExamples.o: StructExamples.cpp
 	${MKDIR} -p ${OBJECTDIR}

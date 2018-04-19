@@ -16,6 +16,10 @@
 #include "classTemplates.h"
 #include "Const.h"
 #include "NewKeword.h"
+#include "Lambdas.h"
+#include "StaticKeywordOutsideClass.h"
+#include "StaticKeywordOutsideClass1.h"
+
 
 int main() {
 
@@ -31,7 +35,9 @@ int main() {
     //overloadOperators();
     //classTemplateTest();
     //testConst();
-    newKewordTest();
+    //newKewordTest();
+    //testLambdas();
+    staticKewordOutsideClassTest();
     return 0;
 }
 

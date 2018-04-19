@@ -40,11 +40,14 @@ OBJECTFILES= \
 	${OBJECTDIR}/Const.o \
 	${OBJECTDIR}/DereferenceVsAddressOfOperator.o \
 	${OBJECTDIR}/Enums.o \
+	${OBJECTDIR}/Lambdas.o \
 	${OBJECTDIR}/NewKeword.o \
 	${OBJECTDIR}/OverloadOperators.o \
 	${OBJECTDIR}/Pointers.o \
 	${OBJECTDIR}/PolymorphismAndAbstractMethods.o \
 	${OBJECTDIR}/Printer.o \
+	${OBJECTDIR}/StaticKeywordOutsideClass.o \
+	${OBJECTDIR}/StaticKeywordOutsideClass1.o \
 	${OBJECTDIR}/StructExamples.o \
 	${OBJECTDIR}/User.o \
 	${OBJECTDIR}/arrays.o \
@@ -81,87 +84,102 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cpptutorial.exe: ${OBJECTFILES}
 ${OBJECTDIR}/AbstractUser.o: AbstractUser.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/AbstractUser.o AbstractUser.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/AbstractUser.o AbstractUser.cpp
 
 ${OBJECTDIR}/ClassConstructorInvocationTypes.o: ClassConstructorInvocationTypes.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ClassConstructorInvocationTypes.o ClassConstructorInvocationTypes.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ClassConstructorInvocationTypes.o ClassConstructorInvocationTypes.cpp
 
 ${OBJECTDIR}/Const.o: Const.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Const.o Const.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Const.o Const.cpp
 
 ${OBJECTDIR}/DereferenceVsAddressOfOperator.o: DereferenceVsAddressOfOperator.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/DereferenceVsAddressOfOperator.o DereferenceVsAddressOfOperator.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/DereferenceVsAddressOfOperator.o DereferenceVsAddressOfOperator.cpp
 
 ${OBJECTDIR}/Enums.o: Enums.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Enums.o Enums.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Enums.o Enums.cpp
+
+${OBJECTDIR}/Lambdas.o: Lambdas.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Lambdas.o Lambdas.cpp
 
 ${OBJECTDIR}/NewKeword.o: NewKeword.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/NewKeword.o NewKeword.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/NewKeword.o NewKeword.cpp
 
 ${OBJECTDIR}/OverloadOperators.o: OverloadOperators.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OverloadOperators.o OverloadOperators.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OverloadOperators.o OverloadOperators.cpp
 
 ${OBJECTDIR}/Pointers.o: Pointers.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Pointers.o Pointers.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Pointers.o Pointers.cpp
 
 ${OBJECTDIR}/PolymorphismAndAbstractMethods.o: PolymorphismAndAbstractMethods.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PolymorphismAndAbstractMethods.o PolymorphismAndAbstractMethods.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PolymorphismAndAbstractMethods.o PolymorphismAndAbstractMethods.cpp
 
 ${OBJECTDIR}/Printer.o: Printer.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Printer.o Printer.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Printer.o Printer.cpp
+
+${OBJECTDIR}/StaticKeywordOutsideClass.o: StaticKeywordOutsideClass.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/StaticKeywordOutsideClass.o StaticKeywordOutsideClass.cpp
+
+${OBJECTDIR}/StaticKeywordOutsideClass1.o: StaticKeywordOutsideClass1.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/StaticKeywordOutsideClass1.o StaticKeywordOutsideClass1.cpp
 
 ${OBJECTDIR}/StructExamples.o: StructExamples.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/StructExamples.o StructExamples.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/StructExamples.o StructExamples.cpp
 
 ${OBJECTDIR}/User.o: User.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/User.o User.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/User.o User.cpp
 
 ${OBJECTDIR}/arrays.o: arrays.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arrays.o arrays.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arrays.o arrays.cpp
 
 ${OBJECTDIR}/classTemplates.o: classTemplates.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/classTemplates.o classTemplates.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/classTemplates.o classTemplates.cpp
 
 ${OBJECTDIR}/functionTemplatesGenerics.o: functionTemplatesGenerics.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/functionTemplatesGenerics.o functionTemplatesGenerics.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/functionTemplatesGenerics.o functionTemplatesGenerics.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
 
 ${OBJECTDIR}/typedefAndUsingToCreateAliases.o: typedefAndUsingToCreateAliases.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/typedefAndUsingToCreateAliases.o typedefAndUsingToCreateAliases.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/typedefAndUsingToCreateAliases.o typedefAndUsingToCreateAliases.cpp
 
 # Subprojects
 .build-subprojects:
