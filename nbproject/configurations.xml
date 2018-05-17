@@ -7,10 +7,12 @@
       <itemPath>AbstractUser.h</itemPath>
       <itemPath>Const.h</itemPath>
       <itemPath>DereferenceVsAddressOfOperator.h</itemPath>
+      <itemPath>C:/_WAZNE/Cpp_MyProjects/CppTutorial/DominikPHPExtension.h</itemPath>
       <itemPath>Enums.h</itemPath>
       <itemPath>Lambdas.h</itemPath>
       <itemPath>NewKeword.h</itemPath>
       <itemPath>OverloadOperators.h</itemPath>
+      <itemPath>C:/_WAZNE/Cpp_MyProjects/CppTutorial/PointerVSReference.h</itemPath>
       <itemPath>Pointers.h</itemPath>
       <itemPath>PolymorphismAndAbstractMethods.h</itemPath>
       <itemPath>Printer.h</itemPath>
@@ -34,10 +36,12 @@
       <itemPath>ClassConstructorInvocationTypes.cpp</itemPath>
       <itemPath>Const.cpp</itemPath>
       <itemPath>DereferenceVsAddressOfOperator.cpp</itemPath>
+      <itemPath>C:/_WAZNE/Cpp_MyProjects/CppTutorial/DominikPHPExtension.cpp</itemPath>
       <itemPath>Enums.cpp</itemPath>
       <itemPath>Lambdas.cpp</itemPath>
       <itemPath>NewKeword.cpp</itemPath>
       <itemPath>OverloadOperators.cpp</itemPath>
+      <itemPath>C:/_WAZNE/Cpp_MyProjects/CppTutorial/PointerVSReference.cpp</itemPath>
       <itemPath>Pointers.cpp</itemPath>
       <itemPath>PolymorphismAndAbstractMethods.cpp</itemPath>
       <itemPath>Printer.cpp</itemPath>
@@ -87,6 +91,26 @@
       <item path="AbstractUser.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="AbstractUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="C:/_WAZNE/Cpp_MyProjects/CppTutorial/DominikPHPExtension.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="C:/_WAZNE/Cpp_MyProjects/CppTutorial/DominikPHPExtension.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="C:/_WAZNE/Cpp_MyProjects/CppTutorial/PointerVSReference.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="C:/_WAZNE/Cpp_MyProjects/CppTutorial/PointerVSReference.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="ClassConstructorInvocationTypes.cpp"
             ex="false"
@@ -187,6 +211,26 @@
       <item path="AbstractUser.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="AbstractUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="C:/_WAZNE/Cpp_MyProjects/CppTutorial/DominikPHPExtension.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="C:/_WAZNE/Cpp_MyProjects/CppTutorial/DominikPHPExtension.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="C:/_WAZNE/Cpp_MyProjects/CppTutorial/PointerVSReference.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="C:/_WAZNE/Cpp_MyProjects/CppTutorial/PointerVSReference.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="ClassConstructorInvocationTypes.cpp"
             ex="false"

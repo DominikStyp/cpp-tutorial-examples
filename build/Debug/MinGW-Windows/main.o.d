@@ -3,7 +3,8 @@ build/Debug/MinGW-Windows/main.o: main.cpp arrays.h Printer.h \
  functionTemplatesGenerics.h DereferenceVsAddressOfOperator.h Pointers.h \
  StructExamples.h typedefAndUsingToCreateAliases.h Enums.h \
  OverloadOperators.h classTemplates.h Const.h NewKeword.h Lambdas.h \
- StaticKeywordOutsideClass.h StaticKeywordOutsideClass1.h
+ StaticKeywordOutsideClass.h StaticKeywordOutsideClass1.h \
+ DominikPHPExtension.h PointerVSReference.h
 
 arrays.h:
 
@@ -40,3 +41,7 @@ Lambdas.h:
 StaticKeywordOutsideClass.h:
 
 StaticKeywordOutsideClass1.h:
+
+DominikPHPExtension.h:
+
+PointerVSReference.h:

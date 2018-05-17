@@ -19,6 +19,8 @@
 #include "Lambdas.h"
 #include "StaticKeywordOutsideClass.h"
 #include "StaticKeywordOutsideClass1.h"
+#include "DominikPHPExtension.h"
+#include "PointerVSReference.h"
 
 
 int main() {
@@ -37,7 +39,9 @@ int main() {
     //testConst();
     //newKewordTest();
     //testLambdas();
-    staticKewordOutsideClassTest();
+    //staticKewordOutsideClassTest();
+    //testReplaceUrlsWithAnchors();
+    PointerVSReference();
     return 0;
 }
 

@@ -36,6 +36,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/AbstractUser.o \
+	${OBJECTDIR}/_ext/7a3b143/DominikPHPExtension.o \
+	${OBJECTDIR}/_ext/7a3b143/PointerVSReference.o \
 	${OBJECTDIR}/ClassConstructorInvocationTypes.o \
 	${OBJECTDIR}/Const.o \
 	${OBJECTDIR}/DereferenceVsAddressOfOperator.o \
@@ -85,6 +87,16 @@ ${OBJECTDIR}/AbstractUser.o: AbstractUser.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/AbstractUser.o AbstractUser.cpp
+
+${OBJECTDIR}/_ext/7a3b143/DominikPHPExtension.o: /C/_WAZNE/Cpp_MyProjects/CppTutorial/DominikPHPExtension.cpp
+	${MKDIR} -p ${OBJECTDIR}/_ext/7a3b143
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/7a3b143/DominikPHPExtension.o /C/_WAZNE/Cpp_MyProjects/CppTutorial/DominikPHPExtension.cpp
+
+${OBJECTDIR}/_ext/7a3b143/PointerVSReference.o: /C/_WAZNE/Cpp_MyProjects/CppTutorial/PointerVSReference.cpp
+	${MKDIR} -p ${OBJECTDIR}/_ext/7a3b143
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/7a3b143/PointerVSReference.o /C/_WAZNE/Cpp_MyProjects/CppTutorial/PointerVSReference.cpp
 
 ${OBJECTDIR}/ClassConstructorInvocationTypes.o: ClassConstructorInvocationTypes.cpp
 	${MKDIR} -p ${OBJECTDIR}
